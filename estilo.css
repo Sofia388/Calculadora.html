@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background: #AFEEEE;
+}
+
+h1 {
+    font-family: 'Watermelon Script Demo','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36pt;
+}
+
+form {
+    top: 30px;
+    right: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
