@@ -1,2 +1,50 @@
-# Calculadora.html
-Calculadora básica y su estructura
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Calculadora </h1>
+    <form method="post" action="logica.php">
+        <center>
+            <table class="tabla">
+                <tr>
+                    <td>
+                        Primer Numero <br>
+                    </td>
+
+                    <td>
+                        <input type="number" name="n1"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Segundo Numero <br>
+                    </td>
+                    <td>
+                        <input type="number" name="n2"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Elegir Operacion: <br>
+                    </td>
+                    <td>
+                        <select name="operacion">
+                            <option value="suma">Suma</option>
+                            <option value="resta">Resta</option>
+                            <option value="multi">Multiplicacion</option>
+                            <option value="div">División</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <input type="submit" value="Calcular">
+
+
+    </form>
+
+</body>
+</html>
