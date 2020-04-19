@@ -12,12 +12,12 @@
         $Total=$valor1 + $valor2 ;
         echo "la suma es: ".$Total;
     }
-    else if ($op==$resta)
+    elseif ($op==$resta)
     {
         $Total = $valor1 - $valor2 ;
         echo "la resta es: ".$Total ;
     }
-    else if ($op==$multi)
+    elseif ($op==$multi)
     { 
          $Total = $valor1 * $valor2 ;
          echo "la multiplicacion es: ".$Total 
